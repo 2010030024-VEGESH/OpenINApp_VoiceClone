@@ -47,15 +47,8 @@ output that as well.
 Sometimes Tortoise screws up an output. You can re-generate any bad clips by re-running `read.py` with the --regenerate
 argument.
 
-### API
 
 
-
-### Provided voices
-
-This repo comes with several pre-packaged voices. Voices prepended with "train_" came from the training set and perform
-far better than the others. If your goal is high quality speech, I recommend you pick one of them. If you want to see
-what Tortoise can do for zero-shot mimicking, take a look at the others.
 
 ### Adding a new voice
 
