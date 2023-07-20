@@ -10,7 +10,7 @@ Then run the following commands, using anaconda prompt as the terminal (or any o
 
 #This will:
 
-. create conda environment with minimal dependencies specified
+<li>. create conda environment with minimal dependencies specified</li>
 . activate the environment
 . install pytorch with the command provided here: https://pytorch.org/get-started/locally/
 . clone tortoise-tts
