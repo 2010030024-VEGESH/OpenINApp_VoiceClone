@@ -10,28 +10,29 @@ Then run the following commands, using anaconda prompt as the terminal (or any o
 
 #This will:
 
-<li>. create conda environment with minimal dependencies specified</li>
-. activate the environment
-. install pytorch with the command provided here: https://pytorch.org/get-started/locally/
-. clone tortoise-tts
-. change the current directory to tortoise-tts
-. run tortoise python setup install script
-. conda create --name tortoise python=3.9 numba inflect
-. conda activate tortoise
-. conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-. conda install transformers=4.29.2
-. git clone https://github.com/neonbjb/tortoise-tts.git
-. cd tortoise-tts
-. python setup.py install
+<li> create conda environment with minimal dependencies specified</li>
+<li>activate the environment</li>
+<li>install pytorch with the command provided here: https://pytorch.org/get-started/locally/</li>
+<li>clone tortoise-tts</li>
+<li>change the current directory to tortoise-tts</li>
+<li>run tortoise python setup install script</li>
+<li>conda create --name tortoise python=3.9 numba inflect</li>
+<li>conda activate tortoise</li>
+<li>conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia</li>
+<li>conda install transformers=4.29.2</li>
+<li> git clone https://github.com/neonbjb/tortoise-tts.git</li>
+<li>cd tortoise-tts</li>
+<li>python setup.py install</li>
 
 
-his script allows you to speak a single phrase with one or more voices.
+#This script allows you to speak a single phrase with one or more voices.
 
-python tortoise/do_tts.py --text "I'm going to speak this" --voice random --preset fast
-read.py
-This script provides tools for reading large amounts of text.
+<li>python tortoise/do_tts.py --text "I'm going to speak this" --voice random --preset fast</li>
+#read.py
 
-python tortoise/read.py --textfile <your text to be read> --voice random
+<li>This script provides tools for reading large amounts of text.</li>
+
+<li>python tortoise/read.py --textfile <your text to be read> --voice random</li>
 
 
 Adding a new voice
