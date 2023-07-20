@@ -1,5 +1,5 @@
 # OpenINApp_VoiceClone
-Local Installation
+<h1>Local Installation</h1>
 If you want to use this on your own computer, you must have an NVIDIA GPU.
 
 On Windows, I highly recommend using the Conda installation path. I have been told that if you do not do this, you will spend a lot of time chasing dependency problems.
