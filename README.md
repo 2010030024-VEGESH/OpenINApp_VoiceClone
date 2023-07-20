@@ -8,21 +8,21 @@ First, install miniconda: https://docs.conda.io/en/latest/miniconda.html
 
 Then run the following commands, using anaconda prompt as the terminal (or any other terminal configured to work with conda)
 
-This will:
+#This will:
 
-create conda environment with minimal dependencies specified
-activate the environment
-install pytorch with the command provided here: https://pytorch.org/get-started/locally/
-clone tortoise-tts
-change the current directory to tortoise-tts
-run tortoise python setup install script
-conda create --name tortoise python=3.9 numba inflect
-conda activate tortoise
-conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-conda install transformers=4.29.2
-git clone https://github.com/neonbjb/tortoise-tts.git
-cd tortoise-tts
-python setup.py install
+. create conda environment with minimal dependencies specified
+. activate the environment
+. install pytorch with the command provided here: https://pytorch.org/get-started/locally/
+. clone tortoise-tts
+. change the current directory to tortoise-tts
+. run tortoise python setup install script
+. conda create --name tortoise python=3.9 numba inflect
+. conda activate tortoise
+. conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+. conda install transformers=4.29.2
+. git clone https://github.com/neonbjb/tortoise-tts.git
+. cd tortoise-tts
+. python setup.py install
 
 
 his script allows you to speak a single phrase with one or more voices.
